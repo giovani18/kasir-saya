@@ -1,4 +1,4 @@
-# 🛒 Kasir Saya (Kios Bu Sribekti)
+# 🛒 Kasir Saya 
 
 > **Aplikasi Kasir (Point of Sale) Modern Berbasis Web dengan Arsitektur Offline-First, Role-Based Access Control, dan Dashboard Analitik.**
 
