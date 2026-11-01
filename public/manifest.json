@@ -1,0 +1,18 @@
+{
+  "short_name": "Kasir Sribekti",
+  "name": "Sistem Kasir Kios Bu Sribekti",
+  "description": "Aplikasi Point of Sale offline-first untuk Kios Bu Sribekti",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f8fafc",
+  "display": "standalone",
+  "theme_color": "#16a34a",
+  "orientation": "any"
+}

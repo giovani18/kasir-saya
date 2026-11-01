@@ -1,0 +1,19 @@
+.product-page-container { padding: var(--space-lg); display: flex; flex-direction: column; height: 100%; overflow: hidden; }
+.page-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-lg); flex-shrink: 0; }
+.page-header h2 { font-size: 1.5rem; color: var(--color-text-primary); }
+.header-actions { display: flex; gap: var(--space-md); }
+.table-container { flex: 1; background: var(--color-bg-card); border-radius: var(--radius-lg); border: 1px solid var(--color-border); overflow: auto; }
+.data-table { width: 100%; border-collapse: collapse; }
+.data-table th, .data-table td { padding: var(--space-md); text-align: left; border-bottom: 1px solid var(--color-border); }
+.data-table th { background: var(--color-bg-elevated); font-weight: 600; color: var(--color-text-secondary); position: sticky; top: 0; z-index: 1; }
+.category-badge { background: var(--color-primary-bg); color: var(--color-primary-dark); padding: 4px 8px; border-radius: var(--radius-md); font-size: 0.8rem; font-weight: 500; }
+.action-buttons { display: flex; gap: 8px; justify-content: flex-end; }
+/* Fix 4: Icon buttons styled distinctly */
+.icon-btn { width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center; border-radius: var(--radius-md); border: none; cursor: pointer; transition: all 0.2s; }
+.edit-btn { background: #e0f2fe; color: #0284c7; }
+.edit-btn:hover { background: #bae6fd; color: #0369a1; }
+.delete-btn { background: #fee2e2; color: #ef4444; }
+.delete-btn:hover { background: #fecaca; color: #b91c1c; }
+.form-label { display: block; margin-bottom: 4px; font-size: 0.9rem; font-weight: 500; color: var(--color-text-secondary); }
+.form-input { width: 100%; padding: 10px 12px; border: 1px solid var(--color-border); border-radius: var(--radius-md); font-size: 1rem; font-family: var(--font-body); }
+.form-input:focus { border-color: var(--color-primary); outline: none; }
